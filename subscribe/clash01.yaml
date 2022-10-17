@@ -33,9 +33,9 @@ proxies:
   - {"type":"vmess","name":"default_name_5","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.241","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇭🇰_HK_香港","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"default_name_60","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.241","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰_HK_新加坡","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_HK_新111加坡","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"default_name_61","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.241","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰_新加坡_HK","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_新222加坡_HK","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
 
 proxy-groups:
   - name: 🚀 节点选择
