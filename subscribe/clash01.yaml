@@ -1,0 +1,183 @@
+#
+#-------------------------------------------------------------#
+#  creator: JMVoid
+#  Fake data for test purpose
+#-------------------------------------------------------------#
+#
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+proxies:
+  - {"type":"vmess","name":"default_name_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.example.com"}},"server":"141.101.115.150","port":443,"uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_1","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.48816626.xyz"}},"server":"67.21.72.44","port":443,"uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"default_name_2","ws-opts":{"path":"/SCP-914"},"server":"us.kapok.buzz","port":443,"uuid":"eb4550a1-bd63-4f9c-b4b6-fdd24b440728","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国->🇩🇪_DE_德国","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.example.com"}},"server":"172.64.153.150","port":443,"uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/chat","headers":{"host":"vus3.mybad.com"}},"server":"vus3.mybad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"default_name_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.example.com"}},"server":"141.101.115.2","port":443,"uuid":"a5ba8b2b-8fc5-4521-a35e-9281be61c1c3","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"default_name_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray1.example.com"}},"server":"141.101.114.20","port":443,"uuid":"07a63fe3-8a46-4f89-b548-9151c61b9dc8","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_3","ws-opts":{"path":"/chat","headers":{"host":"vde2.mybad.com"}},"server":"vde2.mybad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚","ws-opts":{"path":"/chat","headers":{"host":"vau1.mybad.com"}},"server":"vau1.mybad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"edge.cjhh.mom"}},"server":"simxe-1055-v2-1.hkg-r-kcd-d.nd.cjhh.mom","port":29978,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"default_name_5","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.241","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰_HK_香港","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":888,"uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":0,"cipher":"auto","network":"ws","tls":true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - default_name_1
+      - 🇺🇸_US_美国_1
+      - default_name_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - default_name_5
+      - 🇭🇰_HK_香港
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - default_name_1
+      - 🇺🇸_US_美国_1
+      - default_name_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - default_name_5
+      - 🇭🇰_HK_香港
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - default_name_1
+      - 🇺🇸_US_美国_1
+      - default_name_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - default_name_5
+      - 🇭🇰_HK_香港
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - default_name_1
+      - 🇺🇸_US_美国_1
+      - default_name_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - default_name_5
+      - 🇭🇰_HK_香港
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - default_name_1
+      - 🇺🇸_US_美国_1
+      - default_name_2
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - default_name_3
+      - default_name_4
+      - 🇺🇸_US_美国_3
+      - 🇦🇺_AU_澳大利亚
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
+      - default_name_5
+      - 🇭🇰_HK_香港
+rules:
+  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,lan,🎯 全球直连
+  - DOMAIN-SUFFIX,local,🎯 全球直连
+  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
+  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
+  - DOMAIN,router.asus.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,my.router,🎯 全球直连
+  - DOMAIN-SUFFIX,p.to,🎯 全球直连
+  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
+  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+  - DOMAIN-KEYWORD,adservice,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
+  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
