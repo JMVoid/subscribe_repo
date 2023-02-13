@@ -286,9 +286,10 @@ proxy-groups:
 
 # 规则
 rules:
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
   - DOMAIN-SUFFIX,github.com,DIRECT
-  - DOMAIN-SUFFIX,.com,DIRECT
-  - DOMAIN-SUFFIX,.org,DIRECT
+  - DOMAIN-KEYWORD,com,DIRECT
+  - DOMAIN-KEYWORD,org,DIRECT
   # (GlobalTV)
   # > ABC
 
