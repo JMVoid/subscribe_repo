@@ -18,18 +18,135 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"vmess","name":"🇯🇵_JP_日本","ws-opts":{"path":"/chat","headers":{"host":"vjp1.0bad.com"}},"server":"vjp1.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"default_name_1","ws-opts":{"path":"/b356a4/","headers":{"host":"1dcelis.qiqis.ml"}},"server":"qiqis.cf","port":443,"uuid":"4e6d153c-e5b2-4911-bc72-e11c64f3ce93","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"default_name_2","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.238.164","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国->🇷🇴_RO_罗马尼亚","ws-opts":{"path":"/1017.fqcloud.ga","headers":{"host":"1017.fqcloud.ga"}},"server":"172.64.159.18","port":2053,"uuid":"319881ad-fb36-4688-dd94-8334b0028da0","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇩🇪_DE_德国","ws-opts":{"path":"/chat","headers":{"host":"vde2.0bad.com"}},"server":"vde2.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"default_name_3","ws-opts":{"path":"/chat","headers":{"host":"vau1.0bad.com"}},"server":"vau1.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_1","server":"81.90.189.41","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_2","server":"81.90.189.41","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_3","server":"81.90.189.41","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_4","server":"81.90.189.41","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"default_name_4","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.241","port":443,"uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇸🇬_SG_新加坡_5","server":"81.90.189.41","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {
+      "type": "vmess",
+      "name": "🇯🇵_JP_日本",
+      "ws-opts": { "path": "/chat", "headers": { "host": "vjp1.0bad.com" } },
+      "server": "vjp1.0bad.com",
+      "port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "default_name_1",
+      "ws-opts":
+        { "path": "/b356a4/", "headers": { "host": "1dcelis.qiqis.ml" } },
+      "server": "qiqis.cf",
+      "port": 443,
+      "uuid": "4e6d153c-e5b2-4911-bc72-e11c64f3ce93",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "default_name_2",
+      "ws-opts": { "path": "/down", "headers": { "host": "js.adbse.xyz" } },
+      "server": "172.105.238.164",
+      "port": 443,
+      "uuid": "3706161f-3ee3-48e5-bfcf-0d856cc6f0ab",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚",
+      "ws-opts":
+        {
+          "path": "/1017.fqcloud.ga",
+          "headers": { "host": "1017.fqcloud.ga" },
+        },
+      "server": "172.64.159.18",
+      "port": 2053,
+      "uuid": "319881ad-fb36-4688-dd94-8334b0028da0",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "🇩🇪_DE_德国",
+      "ws-opts": { "path": "/chat", "headers": { "host": "vde2.0bad.com" } },
+      "server": "vde2.0bad.com",
+      "port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "default_name_3",
+      "ws-opts": { "path": "/chat", "headers": { "host": "vau1.0bad.com" } },
+      "server": "vau1.0bad.com",
+      "port": 443,
+      "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "ss",
+      "name": "🇸🇬_SG_新加坡_1",
+      "server": "81.90.189.41",
+      "port": 801,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+    }
+  - {
+      "type": "ss",
+      "name": "🇸🇬_SG_新加坡_2",
+      "server": "81.90.189.41",
+      "port": 800,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+    }
+  - {
+      "type": "ss",
+      "name": "🇸🇬_SG_新加坡_3",
+      "server": "81.90.189.41",
+      "port": 806,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+    }
+  - {
+      "type": "ss",
+      "name": "🇸🇬_SG_新加坡_4",
+      "server": "81.90.189.41",
+      "port": 809,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+    }
+  - {
+      "type": "vmess",
+      "name": "default_name_4",
+      "ws-opts": { "path": "/down", "headers": { "host": "js.adbse.xyz" } },
+      "server": "172.105.239.241",
+      "port": 443,
+      "uuid": "3706161f-3ee3-48e5-bfcf-0d856cc6f0ab",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "ss",
+      "name": "🇸🇬_SG_新加坡_5",
+      "server": "81.90.189.41",
+      "port": 811,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "G!yBwPWH3Vao",
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -170,6 +287,9 @@ proxy-groups:
       - default_name_4
       - 🇸🇬_SG_新加坡_5
 rules:
+  - DOMAIN-SUFFIX,github.com,🎯 全球直连
+  - DOMAIN-SUFFIX,.com,🎯 全球直连
+  - DOMAIN-SUFFIX,.org,🎯 全球直连
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连

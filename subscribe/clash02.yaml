@@ -1,3 +1,4 @@
+---
 #---------------------------------------------------#
 ## 更新：2021-07-03 12:32:11
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
@@ -32,28 +33,218 @@ log-level: silent
 # 参数应填写配置目录的相对路径或绝对路径。
 # external-ui: folder
 
-
 proxies:
-  - {"name":"V3-中转2936|广东-新加坡|x1.5|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":12936,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转2940|广东-新加坡|x1.5|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":12940,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转2941|广东-新加坡|x1.5|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":12941,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转2942|广东-新加坡|x1.5|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":12942,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转2960|上海-日本M|解锁|x1.5|V2ray","type":"vmess","server":"zhonggang-sy01.ddns-only.xyz","port":12960,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"zhonggang-sy01.ddns-only.xyz"}}
-  - {"name":"V3-中转3056|广东-新加坡|解锁|x1.3|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":13056,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转3057|广东-新加坡|解锁|x1.3|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":13057,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转3058|广东-新加坡|解锁|x1.3|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":13058,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转3059|广东-新加坡|解锁|x1.3|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":13059,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转3060|广东-新加坡|解锁|x1.3|V2ray","type":"vmess","server":"v2-linode-zy.ddns-only.xyz","port":13060,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"v2-linode-zy.ddns-only.xyz"}}
-  - {"name":"V3-中转3074|广东-日本|解锁|x1.5|V2ray","type":"vmess","server":"guangdong04.ddns-only.xyz","port":13074,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"guangdong04.ddns-only.xyz"}}
-  - {"name":"V3-中转3172|沪港-香港|解锁|x1.5|V2ray","type":"vmess","server":"sy-gg-02.ddns-only.xyz","port":13172,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"sy-gg-02.ddns-only.xyz"}}
-  - {"name":"V3-中转3182|沪港-香港|解锁|x1.5|V2ray","type":"vmess","server":"sy-gg-02.ddns-only.xyz","port":13182,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"sy-gg-02.ddns-only.xyz"}}
-  - {"name":"V3-中转3192|广港B-香港|解锁|x1.5|V2ray","type":"vmess","server":"guanggang-sy-03.ddns-only.xyz","port":13192,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"guanggang-sy-03.ddns-only.xyz"}}
-  - {"name":"V3-中转3193|广港-香港|解锁|x1.5|V2ray","type":"vmess","server":"sy-gg-02.ddns-only.xyz","port":13193,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"sy-gg-02.ddns-only.xyz"}}
-  - {"name":"V3-中转3194|广东-香港|解锁|x1.5|V2ray","type":"vmess","server":"guangdong02.ddns-only.xyz","port":13194,"uuid":"2d37ca60-c3b8-39c7-af8b-383c958d6299","alterId":1,"cipher":"auto","udp":true,"network":"ws","ws-path":"/sy666666","ws-headers":{"Host":"guangdong02.ddns-only.xyz"}}
+  - {
+      "name": "V3-中转2936|广东-新加坡|x1.5|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 12936,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转2940|广东-新加坡|x1.5|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 12940,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转2941|广东-新加坡|x1.5|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 12941,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转2942|广东-新加坡|x1.5|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 12942,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转2960|上海-日本M|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "zhonggang-sy01.ddns-only.xyz",
+      "port": 12960,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "zhonggang-sy01.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3056|广东-新加坡|解锁|x1.3|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 13056,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3057|广东-新加坡|解锁|x1.3|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 13057,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3058|广东-新加坡|解锁|x1.3|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 13058,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3059|广东-新加坡|解锁|x1.3|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 13059,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3060|广东-新加坡|解锁|x1.3|V2ray",
+      "type": "vmess",
+      "server": "v2-linode-zy.ddns-only.xyz",
+      "port": 13060,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "v2-linode-zy.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3074|广东-日本|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "guangdong04.ddns-only.xyz",
+      "port": 13074,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "guangdong04.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3172|沪港-香港|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "sy-gg-02.ddns-only.xyz",
+      "port": 13172,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "sy-gg-02.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3182|沪港-香港|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "sy-gg-02.ddns-only.xyz",
+      "port": 13182,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "sy-gg-02.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3192|广港B-香港|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "guanggang-sy-03.ddns-only.xyz",
+      "port": 13192,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "guanggang-sy-03.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3193|广港-香港|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "sy-gg-02.ddns-only.xyz",
+      "port": 13193,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "sy-gg-02.ddns-only.xyz" },
+    }
+  - {
+      "name": "V3-中转3194|广东-香港|解锁|x1.5|V2ray",
+      "type": "vmess",
+      "server": "guangdong02.ddns-only.xyz",
+      "port": 13194,
+      "uuid": "2d37ca60-c3b8-39c7-af8b-383c958d6299",
+      "alterId": 1,
+      "cipher": "auto",
+      "udp": true,
+      "network": "ws",
+      "ws-path": "/sy666666",
+      "ws-headers": { "Host": "guangdong02.ddns-only.xyz" },
+    }
 
 proxy-groups:
-  -
-    name: Proxy
+  - name: Proxy
     type: select
     proxies:
       - V3-中转2936|广东-新加坡|x1.5|V2ray
@@ -73,35 +264,34 @@ proxy-groups:
       - V3-中转3193|广港-香港|解锁|x1.5|V2ray
       - V3-中转3194|广东-香港|解锁|x1.5|V2ray
 
-  -
-    name: Domestic
+  - name: Domestic
     type: select
     proxies:
       - DIRECT
       - Proxy
-  -
-    name: AsianTV
+  - name: AsianTV
     type: select
     proxies:
       - Domestic
       - Proxy
-  -
-    name: GlobalTV
+  - name: GlobalTV
     type: select
     proxies:
       - Proxy
-  -
-    name: Others
+  - name: Others
     type: select
     proxies:
       - Proxy
       - Domestic
-
 
 # 规则
 rules:
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,.com,DIRECT
+  - DOMAIN-SUFFIX,.org,DIRECT
   # (GlobalTV)
   # > ABC
+
   - DOMAIN-SUFFIX,edgedatg.com,GlobalTV
   - DOMAIN-SUFFIX,go.com,GlobalTV
 
